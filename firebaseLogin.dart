@@ -7,10 +7,10 @@
   firebase_messaging: ^14.2.2
 
 
-     void main()async{
-        WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(); // initializes the default Firebase app instance.
-     }
+  void main()async{
+     WidgetsFlutterBinding.ensureInitialized();
+     await Firebase.initializeApp(); // initializes the default Firebase app instance.
+  }
 
   //loginWithGoogle     
 
